@@ -1,0 +1,39 @@
+# This file was created Thu Nov 19 17:05:30 2020
+# Created by:
+#                       :-) GROMACS - gmx rdf, 2018.1 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /media/kmakuch/shared/przebicia/lut/lutein_x6_md_2
+# Command line:
+#   gmx rdf -f lutein_x6_md_2_complete_traj.xtc -s lutein_x6_md_2.tpr -n index_2020.ndx -o rdf_BCL_1235.xvg -rmax 2 -ref 55 -sel OW phosphate_1 glycerol_1
+# gmx rdf is part of G R O M A C S:
+#
+# Good gRace! Old Maple Actually Chews Slate
+#
+@    title "Radial distribution"
+@    xaxis  label "r (nm)"
+@    yaxis  label "g(r)"
+@TYPE xy
+@ subtitle "reference BCL_OH_1_BCL_OH_2_BCL_OH_3_BCL_OH_5"
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "SOL_&_OW"
+@ s1 legend "phosphate_1"
+@ s2 legend "glycerol_1"
+      0.300    0.847    1.182    2.269
+      0.302    0.766    1.107    2.179
+      0.304    0.695    1.034    2.108
+      0.306    0.637    1.007    2.045
+      0.308    0.582    1.010    1.985
+      0.310    0.535    0.970    1.947
+      0.312    0.494    0.966    1.948
+      0.314    0.458    0.954    1.937
+      0.316    0.428    0.962    1.934
+      0.318    0.401    0.932    1.961
+      0.320    0.379    0.958    1.975
+      0.322    0.360    0.968    2.039

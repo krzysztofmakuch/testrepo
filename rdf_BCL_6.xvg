@@ -1,0 +1,39 @@
+# This file was created Thu Nov 19 15:50:00 2020
+# Created by:
+#                       :-) GROMACS - gmx rdf, 2018.1 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /media/kmakuch/shared/przebicia/lut/lutein_x6_md_2
+# Command line:
+#   gmx rdf -f lutein_x6_md_2_complete_traj.xtc -s lutein_x6_md_2.tpr -n index_2020.ndx -o rdf_BCL_6.xvg -rmax 2 -ref 48 -sel OW phosphate_1 glycerol_1
+# gmx rdf is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "Radial distribution"
+@    xaxis  label "r (nm)"
+@    yaxis  label "g(r)"
+@TYPE xy
+@ subtitle "reference BCL_OH_6"
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "SOL_&_OW"
+@ s1 legend "phosphate_1"
+@ s2 legend "glycerol_1"
+      0.300    0.686    1.604    5.281
+      0.302    0.624    1.585    5.169
+      0.304    0.559    1.557    4.958
+      0.306    0.509    1.536    4.767
+      0.308    0.465    1.505    4.620
+      0.310    0.429    1.479    4.681
+      0.312    0.389    1.421    4.612
+      0.314    0.360    1.363    4.586
+      0.316    0.332    1.347    4.501
+      0.318    0.313    1.344    4.609
+      0.320    0.293    1.291    4.563
+      0.322    0.268    1.266    4.651
