@@ -1,7 +1,7 @@
 '''
 version 0.1
 requires python3 and numpy
-Run with IDLE (open with IDLE, hit F5 and proceed as further descibed),
+You can run this script with IDLE (open with IDLE, hit F5 and proceed as further descibed),
 or interactive python3 session (python3 -i angle_from_positions.py)
 After opening run script as:
 
@@ -248,6 +248,7 @@ def angle_vectors(v1):
 #### if main ####
 
 def run_module():
+    """ Execute module asking for parameters """
     print('This program converts positions of atoms into angles \
 between a vector and 0X axis.\
 \n Provide the program with a filename and number of dimensions \

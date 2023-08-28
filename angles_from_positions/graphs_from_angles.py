@@ -48,17 +48,19 @@ def print_angles(data):
         plt.xlabel('time')
         plt.ylabel('angle [deg]')
         plt.ylim([0,360])
-        plt.savefig(col, format = 'png')
+        plt.savefig(col + '.png', format = 'png')
         plt.close()
 
 
 #print_angles(read_file('angles_example.txt'))
 
-if __name__ == '__main__':
+def run_module():
     print('Give a filename to create graphs: ')
     file = input()
     print_angles(read_file(file))
     print('You can find crude representations of the angle \
 evolution in subsequent col## PNG files.')
 
+if __name__ == '__main__':
+    run_module()
     

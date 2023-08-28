@@ -67,6 +67,7 @@ def read_file(filename):
     #print(df.head())
 
     return df
+
         
 def print_line_graph(df, filename, col_title = 'RDF',
                      xlabel = 'Distance', ylabel = 'RDF',
@@ -74,9 +75,8 @@ def print_line_graph(df, filename, col_title = 'RDF',
     '''(DataFrame, str, int, str, str, float)
     Takes data from read_file function.
     Creates a graph from a dataframe.
-    - data - dataframe
+    - df - dataframe
     - filename - output
-    - col_num - column to use
     '''
     #right now the script assumes it'll take the 1st column
     #should be changed, number of cols needed?:
@@ -92,6 +92,7 @@ def print_line_graph(df, filename, col_title = 'RDF',
     plt.ylim(0, maxrdf)
     plt.savefig(filename, format = 'png')
     plt.close()
+
 
 def list_of_xvg(pattern):
     '''(str) -> list
@@ -135,9 +136,6 @@ def line_graphs(xvg, xtit = 'distance', ytit = 'RDF', maxrdf = 1, cols = [0,1]):
     for iterator, file in enumerate(xvg_files):
         data = read_file(file)
         print_line_graph(data, name_png(file))
-        
-    
-
 
 
 if __name__ == '__main__':
