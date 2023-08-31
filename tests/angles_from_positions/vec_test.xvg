@@ -1,0 +1,63 @@
+# This file was created Thu Jun 10 22:00:32 2021
+# Created by:
+#                       :-) GROMACS - gmx traj, 2018.1 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /media/kmakuch/shared/przebicia/lut/sim_prz_lut_d
+# Command line:
+#   gmx traj -f sim_prz_lut_d_copy_complete_dt100.xtc -s sim_prz_lut_d.tpr -n index_rot_C1320.ndx -ox lut_ver_C1320.xvg
+# gmx traj is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "Coordinate"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Coordinate (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "atom 25215 X"
+@ s1 legend "atom 25215 Y"
+@ s2 legend "atom 25215 Z"
+@ s3 legend "atom 25236 X"
+@ s4 legend "atom 25236 Y"
+@ s5 legend "atom 25236 Z"
+@ s6 legend "atom 25313 X"
+@ s7 legend "atom 25313 Y"
+@ s8 legend "atom 25313 Z"
+@ s9 legend "atom 25334 X"
+@ s10 legend "atom 25334 Y"
+@ s11 legend "atom 25334 Z"
+@ s12 legend "atom 25411 X"
+@ s13 legend "atom 25411 Y"
+@ s14 legend "atom 25411 Z"
+@ s15 legend "atom 25432 X"
+@ s16 legend "atom 25432 Y"
+@ s17 legend "atom 25432 Z"
+@ s18 legend "atom 25509 X"
+@ s19 legend "atom 25509 Y"
+@ s20 legend "atom 25509 Z"
+@ s21 legend "atom 25530 X"
+@ s22 legend "atom 25530 Y"
+@ s23 legend "atom 25530 Z"
+@ s24 legend "atom 25607 X"
+@ s25 legend "atom 25607 Y"
+@ s26 legend "atom 25607 Z"
+@ s27 legend "atom 25628 X"
+@ s28 legend "atom 25628 Y"
+@ s29 legend "atom 25628 Z"
+@ s30 legend "atom 25705 X"
+@ s31 legend "atom 25705 Y"
+@ s32 legend "atom 25705 Z"
+@ s33 legend "atom 25726 X"
+@ s34 legend "atom 25726 Y"
+@ s35 legend "atom 25726 Z"
+ 0	5.452	3.279	3.903	5.354	3.379	3.96	0.395	1.785	4.054	0.289	1.752	3.952	4.065	2.534	4.201	4.201	2.498	4.147	0.776	5.658	3.791	0.668	5.755	3.748	3.028	3.493	4.801	2.941	3.61	4.762	4.348	4.35	4.003	4.252	4.234	3.996
+ 100	5.528	3.177	3.903	5.419	3.267	3.95	0.558	1.807	4.048	0.454	1.767	3.941	4.373	2.472	4.235	4.518	2.508	4.191	0.913	5.659	3.837	0.858	5.784	3.773	3.197	3.364	4.802	3.1	3.468	4.751	4.466	4.319	3.96	4.427	4.179	3.932
+ 200	5.605	3.269	3.873	5.502	3.382	3.911	0.637	1.811	4.112	0.574	1.698	4.025	4.284	2.451	4.299	4.424	2.41	4.25	1.025	5.867	3.91	1.018	6.001	3.824	3.211	3.424	4.682	3.124	3.544	4.66	4.508	4.321	4.127	4.426	4.192	4.132
+ 300	5.548	3.298	4.123	5.479	3.422	4.171	0.608	1.78	4.157	0.515	1.733	4.05	4.156	2.554	4.23	4.298	2.564	4.172	1.011	5.641	3.891	1.031	5.782	3.827	3.154	3.467	4.717	3.049	3.576	4.7	4.675	4.25	4.011	4.691	4.106	3.956
